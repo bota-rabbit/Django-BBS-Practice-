@@ -29,6 +29,13 @@ PAIZAラーニングで Django を学びながら制作した、簡易SNS風の�
 
 ---
 
+## ✨ フロントエンド
+- テンプレートは **Bootstrap5 に対応**  
+- スタイルは軽く調整しつつ、UIを崩さないよう最小限の改修  
+- 旧バージョン依存のクラスを5系向けに整理済み
+
+---
+
 ## 🚀 ローカル環境での実行手順
 ```bash
 git clone https://github.com/あなたのID/django-mastodon-bbs.git
