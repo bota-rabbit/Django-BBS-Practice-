@@ -1,4 +1,4 @@
-# 🐘 Django Micro-Mastodon Style BBS  
+# 🐘 Django BBS  
 PAIZAラーニングで Django を学びながら制作した、簡易SNS風の掲示板アプリです。  
 投稿・閲覧・削除を行えるシンプルなBBSで、Webアプリの基本設計を理解するための練習を目的としております。
 
