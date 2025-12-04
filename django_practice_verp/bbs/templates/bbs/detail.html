@@ -1,0 +1,16 @@
+{% extends './base.html' %}
+{% load django_bootstrap5 %}
+
+{% block content %}
+
+    <h1>{{ message }}</h1>
+
+    <p>{{ post.content }},{{ post.user_name }}</p>
+
+    <div>
+        <a href="{% url 'bbs:index' %}" class='btn btn-outline-primary'>一覧</a>
+        <a href="{% url 'bbs:edit' post.id %}" class='btn btn-outline-primary'>編集</a>
+        <a href="{% url 'bbs:delete' post.id %}" class='btn btn-outline-secondary'>削除</a>
+    </div>
+    
+{% endblock %}
